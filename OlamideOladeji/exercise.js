@@ -17,11 +17,10 @@ exercise.findBiggerSalaries = function(){
     for (i = 0; i < exercise.salaries.length; i++) { 
         if (exercise.salary < Number(exercise.salaries[i][18])) {
             salaryArray.push(Number(exercise.salaries[i][18]));
-            
+            console.log(salaryArray)
         }
     }
-
-    return salaryArray.length
+    return salaryArray
     // ---------------------------------------------------
     //   YOUR CODE
     //
