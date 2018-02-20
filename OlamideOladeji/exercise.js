@@ -13,14 +13,15 @@ exercise.load = function(salary, boston){
 exercise.findBiggerSalaries = function(){
       
     var salaryArray = [];
-    console.log(exercise.salaries)
+    //console.log(exercise.salaries)
     for (i = 0; i < exercise.salaries.length; i++) { 
         if (exercise.salary < Number(exercise.salaries[i][18])) {
             salaryArray.push(Number(exercise.salaries[i][18]));
+            
         }
     }
 
-    return salaryArray
+    return salaryArray.length
     // ---------------------------------------------------
     //   YOUR CODE
     //
