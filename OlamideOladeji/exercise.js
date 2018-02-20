@@ -13,7 +13,7 @@ exercise.load = function(salary, boston){
 exercise.findBiggerSalaries = function(){
       
     var salaryArray = [];
-    for (i = 0; i < exercise.salaries.data.length; i++) { 
+    for (i = 0; i < exercise.salaries.length; i++) { 
         if (exercise.salary < Number(exercise.salaries[i][18])) {
             salaryArray.push(Number(exercise.salaries[i][18]));
         }
